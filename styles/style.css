@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  header section */
+header{
+    margin: 0 auto;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);    height: 715px;
+    border: 2px solid red;
+}
+
+/* navbar */
+.nav-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ham-burger{
+    display: none;
+    font-size: 1.75rem;
+    padding-left: 1rem;
+    width: 24px;
+height: 24px;
+}
+.ham-burger i{
+    color: white;
+}
+
+
+.nav-options ul{
+  
+    width: 465px;
+    height: 46px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 0  ;
+
+}
+.nav-title h3{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-options ul li{
+    list-style: none;
+    
+    
+}
+
+
+.nav-options ul > li a{
+   color: rgb(255, 255, 255);
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+}
+.nav-options .home{
+    width: 92px;
+height: 38px;
+    border-radius: 46px;
+background: rgb(230, 83, 60);
+
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+border: none;
+padding: 8px 20px;
+
+}
+
+
+
+/* responsive layout */
+
+
