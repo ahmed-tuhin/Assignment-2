@@ -84,4 +84,23 @@
     width: 90%;
     height: 100%;
   }
+
+  /* footer */
+  .footer-container {
+    padding: 0;
+
+    grid-template-columns: 1fr;
+  }
+  .footer-content-1,
+  .footer-content-2,
+  .footer-content-3 {
+    width: 90%;
+    margin-left: 25px;
+  }
+  .copy-right p {
+    padding-bottom: 25px;
+  }
+  .hr{
+    width: 90%;
+  }
 }

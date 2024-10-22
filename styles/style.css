@@ -10,7 +10,6 @@ body {
 /*  header section */
 header {
   margin: 0 auto;
-  /* background: linear-gradient(180.00deg, rgb(3, 0, 0),rgba(63, 63, 63, 0) 100%);     */
   background-color: rgba(0, 0, 0, 0.856);
 }
 
@@ -340,9 +339,8 @@ main {
   background: rgba(255, 255, 255, 0.1);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10;
-
   margin: 0 auto;
+
 }
 
 .team-img {
@@ -366,4 +364,87 @@ main {
 }
 .img-text p {
   color: rgb(243, 243, 243);
+}
+
+/* footer styles */
+
+footer{
+
+  background-color: rgba(0, 0, 0, 0.856);
+
+  /* border: 2px solid red; */
+  margin: 0 auto;
+}
+.footer-container{
+
+ /* border: 2px solid burlywood; */
+color: white;
+display: grid;
+padding-left: 250px;
+padding-right: 125px;
+padding-top: 60px;
+grid-template-columns: 1.5fr 0.75fr 0.75fr;
+}
+.footer-content-1{
+ 
+  border: 2px solid burlywood;
+  border: none;
+ 
+}
+.footer-content-1 h1{
+  color: rgb(230, 83, 60);
+
+font-size: 4.4rem;
+font-weight: 800;
+}
+.footer-content-1 p{
+  color: rgba(255, 255, 255, 0.5);
+ 
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer-content-2,
+.footer-content-3{
+ 
+/* border: 2px solid burlywood; */
+
+}
+
+.footer-content-2 h3{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+}
+.footer-content-2 h5{
+  color: rgba(255, 255, 255, 0.5);
+ 
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.footer-content-3 h3{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+}
+
+.footer-content-3 h5{
+  color: rgba(255, 255, 255, 0.5);
+ 
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.hr{
+  width: 1440px;
+}
+
+.copy-right p{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+
+font-size: 1.25rem;
+font-weight: 400;
+padding-bottom: 20px;
 }
