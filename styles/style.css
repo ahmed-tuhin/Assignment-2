@@ -1,87 +1,197 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-
-body{
-    font-family: "Inter", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*  header section */
-header{
-    margin: 0 auto;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);    height: 715px;
-    border: 2px solid red;
+header {
+  margin: 0 auto;
+  /* background: linear-gradient(180.00deg, rgb(3, 0, 0),rgba(63, 63, 63, 0) 100%);     */
+  background-color: rgba(0, 0, 0, 0.856);
 }
 
 /* navbar */
-.nav-container{
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.ham-burger{
-    display: none;
-    font-size: 1.75rem;
-    padding-left: 1rem;
-    width: 24px;
-height: 24px;
+.ham-burger {
+  display: none;
+  font-size: 1.75rem;
+  padding-left: 1rem;
+  width: 24px;
+  height: 24px;
 }
-.ham-burger i{
-    color: white;
-}
-
-
-.nav-options ul{
-  
-    width: 465px;
-    height: 46px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    box-sizing: border-box;
-   border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 39px;
-    padding: 0  ;
-
-}
-.nav-title h3{
-    color: rgb(230, 83, 60);
-    font-size: 36px;
-    font-weight: 800;
-}
-.nav-options ul li{
-    list-style: none;
-    
-    
+.ham-burger i {
+  color: white;
 }
 
-
-.nav-options ul > li a{
-   color: rgb(255, 255, 255);
-   font-size: 18px;
-   font-weight: 400;
-   text-decoration: none;
-}
-.nav-options .home{
-    width: 92px;
-height: 38px;
-    border-radius: 46px;
-background: rgb(230, 83, 60);
-
-color: rgb(255, 255, 255);
-font-size: 18px;
-font-weight: 600;
-border: none;
-padding: 8px 20px;
-
+.nav-options ul {
+  width: 465px;
+  height: 46px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 0;
 }
 
+.nav-title h3 {
+  color: rgb(230, 83, 60);
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-left: 1rem;
+}
+.nav-options ul li {
+  list-style: none;
+}
+.nav-options ul > li a {
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+.nav-options .home {
+  width: 92px;
+  height: 38px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  padding: 0.5rem 1.25rem;
+}
 
+/* banner styles */
+.banner-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+#shape {
+  font-family: "Dancing Script", cursive;
+}
 
-/* responsive layout */
+.banner-title {
+  width: 520px;
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+  font-weight: 900;
+  margin-left: 2rem;
+}
 
+.banner-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-left: 2rem;
+}
 
+.btn-download {
+  border-radius: 42px;
+  background-color: rgba(0, 0, 0, 0);
+  gap: 10;
+  padding: 16px 40px 16px 40px;
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  font-weight: 600;
+  border: none;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  margin-left: 0.5rem;
+}
+
+.banner-img {
+  position: relative;
+}
+
+.banner-img img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.video-tutorial {
+  width: 206px;
+  height: 96px;
+  position: absolute;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+
+  top: 70%;
+  left: -10%;
+}
+
+.tutorial-number {
+  color: rgb(250, 250, 249);
+  font-size: 24px;
+  font-weight: 900;
+}
+.tutorial-description {
+  color: rgba(239, 237, 232, 0.65);
+
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.free-workout-videos {
+  width: 206px;
+  height: 96px;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+}
+.free-work-number {
+  color: rgb(250, 250, 249);
+
+  font-size: 24px;
+  font-weight: 900;
+}
+.free-work-description {
+  color: rgba(255, 255, 255, 0.65);
+
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.btn-join {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  gap: 10;
+  padding: 16px 40px 16px 40px;
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  font-weight: 600;
+  border: none;
+  margin-left: 2rem;
+}
+
+.tutorial-number,
+.tutorial-description,
+.free-work-number,
+.free-work-description {
+  text-align: center;
+  margin-bottom: 1rem;
+}

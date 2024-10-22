@@ -1,18 +1,40 @@
-@media screen and (max-width: 576px){
-    .ham-burger{
-        display: block;
-     
-    }
-    .nav-container{
-        padding: 0 15px;
-        
-    }
-    .nav-options{
-        display: none;
-    }
-   
-    .icon{
-        color: white;
-    }
-    
+@media screen and (max-width: 576px) {
+  .ham-burger {
+    display: block;
+  }
+  .nav-container {
+    padding: 0 15px;
+  }
+  .nav-options {
+    display: none;
+  }
+  /* banner */
+  .banner-container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .banner-title {
+    width: 100%;
+    margin-left: 0.5rem;
+  }
+  .banner-description {
+    width: 90%;
+    margin-left: 0.5rem;
+  }
+
+  .btn-download,
+  .btn-join {
+    font-size: 1rem;
+    margin-left: 5px;
+  }
+  .banner-img img {
+    margin-bottom: 10px;
+  }
+
+  .video-tutorial {
+    width: 50%;
+  }
+  .free-workout-videos {
+    width: 50%;
+  }
 }
