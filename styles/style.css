@@ -131,9 +131,7 @@ main {
   font-weight: 600;
   border: none;
   margin-left: 2rem;
-
 }
-
 
 .banner-img {
   position: relative;
@@ -195,7 +193,6 @@ main {
   font-weight: 400;
 }
 
-
 .tutorial-number,
 .tutorial-description,
 .free-work-number,
@@ -203,7 +200,10 @@ main {
 .habit-title,
 .habit-description,
 .img-title,
-.img-subtitle {
+.img-subtitle,
+.bmi-title,
+.bmi-description,
+.chart-title {
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -212,7 +212,6 @@ main {
 .habit-container {
   margin: 0 198px;
   color: white;
- 
 }
 
 .habit-img-container {
@@ -241,52 +240,44 @@ main {
 
 .habit-img .img-title {
   color: rgb(255, 255, 255);
-
   font-size: 1.25rem;
   font-weight: 600;
 }
 .habit-img .img-subtitle {
   color: rgba(255, 255, 255, 0.5);
-
   font-size: 0.8rem;
   font-weight: 400;
 }
 
 /*  Extra Mile section style */
-.extra-mile-container{
+.extra-mile-container {
   border-radius: 18px;
-
-background: rgb(34, 34, 34);
+  background: rgb(34, 34, 34);
   margin: 0 198px;
-  color: white;
-  border: 2px solid burlywood;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.extra-mile-content{
+.extra-mile-content {
   width: 50%;
-  border: 2px solid violet;
   margin-top: 40px;
   margin-left: 54px;
   margin-bottom: 40px;
 }
-.extra-mile-title{
+.extra-mile-title {
   color: rgb(255, 255, 255);
- 
   font-size: 48px;
   font-weight: 900;
   margin-left: 2rem;
 }
-.extra-mile-description{
+.extra-mile-description {
   color: rgba(255, 255, 255, 0.5);
-  
   font-size: 14px;
   font-weight: 400;
   margin-left: 2rem;
 }
 
-#btn-join{
+#btn-join {
   border-radius: 42px;
   background: rgb(230, 83, 60);
   gap: 10;
@@ -299,24 +290,80 @@ background: rgb(34, 34, 34);
   margin-left: 2rem;
 }
 
-
-
-.extra-mile-img{
-
+.extra-mile-img {
   align-items: center;
-  border: 2px solid rgb(130, 238, 171);
- 
 }
 
-.extra-mile-img img{
+.extra-mile-img img {
   width: 75%;
-height: 312px;
+  height: 312px;
   border-radius: 18px;
-  /* margin:30px 165px 30px 30px; */
   margin-top: 30px;
   margin-left: 150px;
   margin-bottom: 30px;
   margin-right: 30px;
 }
 
+/* meet our team  section styles */
+.team-section {
+  /* border: 2px solid red; */
 
+  color: white;
+}
+.team-container {
+  width: 1440px;
+
+  margin: 0 auto;
+  /* border: 2px solid burlywood; */
+}
+.team-content {
+  text-align: center;
+}
+.team-content h3 {
+  width: 90%;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+}
+.team-content p {
+  width: 90%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+.team-img-container {
+  width: 90%;
+  /* border: 2px solid rgb(11, 190, 41); */
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10;
+
+  margin: 0 auto;
+}
+
+.team-img {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  position: relative;
+}
+.team-img img {
+  width: 90%;
+  height: 90%;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.img-text {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+.img-text h4 {
+  color: rgb(243, 243, 243);
+}
+.img-text p {
+  color: rgb(243, 243, 243);
+}
