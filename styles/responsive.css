@@ -37,4 +37,21 @@
   .free-workout-videos {
     width: 50%;
   }
+
+  /* habit section */
+  .habit-container{
+    margin: 0;
+   
+  }
+  .habit-title{
+    font-size: 2rem;
+  
+  
+  }
+  .habit-img-container{
+    padding-left: 11%;
+    width: 75%;
+    grid-template-columns: 1fr;
+   row-gap: 40px;
+  }
 }
