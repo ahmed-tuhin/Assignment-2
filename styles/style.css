@@ -121,6 +121,19 @@ main {
   border-radius: 42px;
   margin-left: 0.5rem;
 }
+.btn-join {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  gap: 10;
+  padding: 16px 40px 16px 40px;
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  font-weight: 600;
+  border: none;
+  margin-left: 2rem;
+
+}
+
 
 .banner-img {
   position: relative;
@@ -182,17 +195,6 @@ main {
   font-weight: 400;
 }
 
-.btn-join {
-  border-radius: 42px;
-  background: rgb(230, 83, 60);
-  gap: 10;
-  padding: 16px 40px 16px 40px;
-  color: rgb(255, 255, 255);
-  font-size: 1.125rem;
-  font-weight: 600;
-  border: none;
-  margin-left: 2rem;
-}
 
 .tutorial-number,
 .tutorial-description,
@@ -210,7 +212,7 @@ main {
 .habit-container {
   margin: 0 198px;
   color: white;
-  border: 2px solid burlywood;
+ 
 }
 
 .habit-img-container {
@@ -249,3 +251,72 @@ main {
   font-size: 0.8rem;
   font-weight: 400;
 }
+
+/*  Extra Mile section style */
+.extra-mile-container{
+  border-radius: 18px;
+
+background: rgb(34, 34, 34);
+  margin: 0 198px;
+  color: white;
+  border: 2px solid burlywood;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.extra-mile-content{
+  width: 50%;
+  border: 2px solid violet;
+  margin-top: 40px;
+  margin-left: 54px;
+  margin-bottom: 40px;
+}
+.extra-mile-title{
+  color: rgb(255, 255, 255);
+ 
+  font-size: 48px;
+  font-weight: 900;
+  margin-left: 2rem;
+}
+.extra-mile-description{
+  color: rgba(255, 255, 255, 0.5);
+  
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+
+#btn-join{
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  gap: 10;
+  padding: 16px 40px 16px 40px;
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  font-weight: 600;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+
+
+.extra-mile-img{
+
+  align-items: center;
+  border: 2px solid rgb(130, 238, 171);
+ 
+}
+
+.extra-mile-img img{
+  width: 75%;
+height: 312px;
+  border-radius: 18px;
+  /* margin:30px 165px 30px 30px; */
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+
